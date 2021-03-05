@@ -1,0 +1,193 @@
+h1 {
+  font-size: 3.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: white;
+  line-height: .748;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+::selection {color: yellow;}
+
+mark {
+  background-color: #ff2400;
+  opacity: 70%;
+}
+
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+margin: auto 50px;
+  color: silver;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: black;
+  background-color: #FF2400;
+
+}
+.top-container{
+  background-image: url(scarlett.jpg);
+  background-size: contain;
+  position: relative;
+  padding-top: 1px;
+}
+
+.middle-container{
+  margin: 1px 0;
+}
+.bottom-container{
+  background-color: black;
+  padding: 1px 0 2px;
+}
+
+
+p{
+  line-height: 2;
+width: 50%;
+margin: auto;
+text-align: center;
+}
+
+hr{
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+.skill-image1{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.skill-image2{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+
+}
+
+
+.skill-image3{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+
+}
+
+
+
+.intro{
+  width: 20%;
+  margin: auto;
+}
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+a{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.btn{
+	box-shadow: 0px 10px 14px -7px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
